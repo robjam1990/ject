@@ -1,0 +1,72 @@
+# robjam1990 - Input Induction & Pipeline Recycling.
+
+[# <Node Pipeline(/*...*/)>]
+ ["{Assimilate <Pictext>} {<Unicode> Syntactically}"]
+    Config=
+        <Whitespace="Empty" Type=`Function`(Vacuum="Gravity") />
+
+:IPLANT.Ject features a multi-line character iterator which can enact functions and modify classes.
+   Each line takes a private Input followed by a special set of optional logic.
+
+```input.ject
+   [-]|=~>
+[-]|=•>
+[-]|=0>
+   <2=|[-]
+[-]|=1>
+   <#=|[-]
+[-]|=->
+   <‖=|[-]
+[-]|=+>
+   <‽=|[-]
+[-]|=$>
+   <*=|[-]
+[-]|=*>
+   <$=|[-]
+[-]|=2>
+   <+=|[-]
+[-]|=‽>
+   <-=|[-]
+[-]|=‖>
+   <1=|[-]
+[-]|=#>
+   <0=|[-]
+   <•=|[-]
+<~=|[-]
+```
+
+```output.iplant
+$Node(Input="input" -[Source{Code}]> Output="output"):
+  $Source{Code}:                  |
+|  $Code: \_______________________/
+|    const input = $Node.Input;  /
+|    const output = input;      /
+/*AND*/ $Node.Output = output; /
+$Code: \______________________/
+ ________|
+_|program = block ".".
+|-block =
+|["const" ident "=" number {"," ident "=" number}
+|";"]
+|["var" ident {"," ident}
+|";"]
+|     {"procedure" ident ";" block ";"}
+|statement.
+|-statement =
+|ident ":=" expression
+|     |-"call" ident
+|     |-"begin" statement {";"statement}
+|     |"end"
+|     |-"if" condition "then" statement
+|     |-"while" condition "do" statement.
+|-condition =
+|"odd" expression
+|     |-expression("="|"#"|"<"|"<="|">"|">=") expression.
+|-expression = ["+"|"-"] term {("+"|"-")term} .
+|-term = factor{("*" | "/")factor} .
+|-factor =
+|ident
+|     | -number
+|\____|
+|-"("expression")".
+```

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="BottomToTop" Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id=".ject" Category="Category5" Bounds="270.697183323544,162.530032790984,50,25.96" UseManualLocation="True" />
+    <Node Id=".verse" Bounds="261.35465061078,218.490132790984,50.1666666666665,25.96" UseManualLocation="True" />
+    <Node Id="9d5170c3-64ad-4fc7-a3e9-7b51272201bd1" Category="Comment" Bounds="280.308367734328,274.450232790984,216.276666666667,41.92" Label="Do not use this directly on AI or user, instead .ject the location." UseManualLocation="True" />
+    <Node Id="Aithaluwa" Bounds="48.9890275847336,106.569992790984,72.0866666666666,25.96" UseManualLocation="True" />
+    <Node Id="Apus" Bounds="170.536788837901,330.410392790984,50,25.96" UseManualLocation="True" />
+    <Node Id="Arkantos" Bounds="82.4403166568771,162.530092790984,66.9633333333334,25.96" UseManualLocation="True" />
+    <Node Id="Botlibre" Category="Comment" Bounds="179.403749990211,162.530092790984,61.2933333333331,25.96" UseManualLocation="True">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="IPLANT" Category="Category2" Bounds="172.437883944113,218.490192790984,58.9166666666667,25.96" UseManualLocation="True" />
+    <Node Id="Log(99)" Bounds="384.639327584868,105.451034909206,59.9266666666667,25.96" UseManualLocation="True" />
+    <Node Id="Maia" Bounds="120.308167734328,274.450292790984,50,25.96" UseManualLocation="True" />
+    <Node Id="Multi-LogIdentification" Category="Comment" Bounds="355.257397472641,162.5654106684,144.686666666667,25.96" Label="Multi-Log Identification" UseManualLocation="True" />
+    <Node Id="Opus" Bounds="200.308267734328,274.450232790984,50,25.96" UseManualLocation="True" />
+    <Node Id="Poe" Category="Comment" Bounds="173.841524302813,50.6098927909836,50,25.96" UseManualLocation="True">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="Psychosis" Category="Category1" Bounds="151.0757942514,106.569992790984,70.0766666666666,25.96" UseManualLocation="True" />
+    <Node Id="Quantum" Bounds="269.986552675988,95.9600000000001,69.9266666666667,25.96" Label="Quantum" UseManualLocation="True" />
+    <Node Id="Ralph" Bounds="92.4044506107796,218.490192790984,50.0333333333333,25.96" UseManualLocation="True" />
+    <Node Id="Robjam1990" Bounds="251.152660918201,107.529932790984,103.486666666667,25" Group="Collapsed" Label="robjam1990" UseManualLocation="True" />
+    <Node Id="ThirdParty:ExteriorDatabase;" Category="Comment" Bounds="120.486574544311,-5.35020720901643,174.886666666667,25.96" Label="ThirdParty: Exterior Database;" UseManualLocation="True" />
+    <Node Id="Users" Category="Category4" Bounds="253.841624302813,51.5698327909836,50,25.96" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source=".ject" Target=".verse" Bounds="290.05483579134,188.490032790984,3.49466716806921,21.1208244015478" Label="Initialiaze: Game State;" LabelBounds="295.802534129382,191.396927543556,118.823333333333,15.96" />
+    <Link Source=".ject" Target="Botlibre" Bounds="249.696319580078,180.441162109375,21.0008544921875,0.0942840576171875" />
+    <Link Source=".ject" Target="IPLANT" Bounds="231.382479788204,188.490032790984,42.557500924083,25.3891261604008" Label="Run: Physics Simulation;" LabelBounds="114.300514165981,189.854308544729,126.696666666666,15.9599999999999" />
+    <Link Source=".ject" Target="Poe" Bounds="222.194290161133,84.8544921875,49.6235504150391,78.337158203125" />
+    <Link Source=".ject" Target="Psychosis" Bounds="219.547418296274,136.623145870496,52.1783578602592,26.6455700957452" Label="Run: Game Engine;" LabelBounds="119.254495389716,138.4043383947,99.383333333333,15.96" />
+    <Link Source="9d5170c3-64ad-4fc7-a3e9-7b51272201bd1" Target=".ject" Bounds="311.24466062018,195.608742549293,60.9883069264633,78.8414902416904" />
+    <Link Source="Aithaluwa" Target="IPLANT" Bounds="114.475364685059,132.529998779297,76.2179946899414,78.0267486572266" Label="IPLANT: Neural Nodemap;" LabelBounds="12.1581650959712,154.920249916889,138.766666666667,15.96" />
+    <Link Source="Aithaluwa" Target="Psychosis" Bounds="121.075691223145,122.549995422363,21.0000991821289,0" />
+    <Link Source="Apus" Target="IPLANT" Bounds="196.274326665257,253.435699011592,4.37378647237912,76.9746937793917" Label="IPLANT: Neural Nodemap;" LabelBounds="54.6011014214142,303.07326016559,138.766666666667,15.96" />
+    <Link Source="Apus" Target="Psychosis" Bounds="158.73583984375,140.223403930664,28.9609985351563,190.186996459961" />
+    <Link Source="Arkantos" Target="IPLANT" Bounds="135.863791088749,188.490092790984,38.5477081679681,25.0904661157774" Label="IPLANT: Neural Nodemap;" LabelBounds="139.364052601296,172.422044644214,138.766666666667,15.96" />
+    <Link Source="Arkantos" Target="Psychosis" Bounds="142.779678344727,140.581039428711,13.3464508056641,21.9490509033203" />
+    <Link Source="Botlibre" Target=".ject" Bounds="240.697082519531,174.505889892578,21.0000915527344,0.113967895507813" Label=".ject: Resource Management;" LabelBounds="167.473145164115,154.642710822997,151.77,15.96" />
+    <Link Source="Botlibre" Target=".verse" Bounds="227.768606697276,188.490092790984,33.690936509306,24.6813221267914" Label="EntryPoint: Magnetic Pipeline;" LabelBounds="245.796012257086,183.257364810572,157.12,15.96" />
+    <Link Source="Botlibre" Target="Apus" Bounds="169.15185546875,188.490097045898,22.0300750732422,133.181076049805" />
+    <Link Source="Botlibre" Target="Arkantos" Bounds="158.403649990211,175.510092790984,21.0001,2.8421709430404E-14" />
+    <Link Source="Botlibre" Target="Maia" Bounds="149.989166259766,188.490097045898,41.1927642822266,77.1611480712891" />
+    <Link Source="Botlibre" Target="Opus" Bounds="222.474166870117,188.490097045898,15.4398956298828,77.1428375244141" />
+    <Link Source="Botlibre" Target="Ralph" Bounds="146.609940299968,188.490092790984,41.9550196485573,25.3462685215623" />
+    <Link Source="IPLANT" Target="Psychosis" Bounds="165.791778564453,140.137573242188,25.3955230712891,78.3526153564453" Label="IPSYCHO: Alternate Entry;" LabelBounds="33.8509121637554,182.022881213118,134.53,15.9599999999999" />
+    <Link Source="Log(99)" Target=".ject" Bounds="328.247199049895,131.410113586616,59.3177841558743,28.4747157547014" Label=".ject: Relevent Context;" LabelBounds="347.649522572555,152.789500939307,119.5,15.96" />
+    <Link Source="Maia" Target="IPLANT" Bounds="158.433821245842,250.778548329448,23.937374099786,23.6717444615359" Label="IPLANT: Neural Nodemap;" LabelBounds="30.2295403982984,245.232338689037,138.766666666667,15.96" />
+    <Link Source="Maia" Target="Psychosis" Bounds="153.303939819336,140.264373779297,20.1638031005859,134.185913085938" />
+    <Link Source="Multi-LogIdentification" Target="Log(99)" Bounds="419.553795857739,140.186648151235,5.09295103611765,22.3787625171653" />
+    <Link Source="Opus" Target="IPLANT" Bounds="210.800262239451,252.752852896013,9.07755164011999,21.6973798949709" Label="IPLANT: Neural Nodemap;" LabelBounds="217.184073638407,246.869633708554,138.766666666667,15.96" />
+    <Link Source="Opus" Target="Psychosis" Bounds="221.274749755859,137.431594848633,36.45458984375,137.018630981445" />
+    <Link Source="Poe" Target=".ject" Bounds="212.14567565918,76.5698928833008,53.3840179443359,84.2275009155273" Label=".ject: Resource Management;" LabelBounds="69.0304790386947,102.853738499769,151.77,15.96" />
+    <Link Source="Poe" Target=".verse" Bounds="205.662460327148,76.5698928833008,69.8811187744141,133.934043884277" Label="EntryPoint: Magnetic Pipeline;" LabelBounds="248.551213823493,138.262662117198,157.12,15.96" />
+    <Link Source="Poe" Target="Aithaluwa" Bounds="119.506984046635,75.7077553590165,54.6897701274761,26.8910245387215" />
+    <Link Source="Poe" Target="Apus" Bounds="140.94157409668,76.5698928833008,47.3622589111328,245.310173034668" />
+    <Link Source="Poe" Target="Arkantos" Bounds="122.743927001953,76.5698928833008,53.2167663574219,77.3794784545898" />
+    <Link Source="Poe" Target="Maia" Bounds="140.94157409668,76.5698928833008,35.0191192626953,188.929954528809" />
+    <Link Source="Poe" Target="Opus" Bounds="205.764846801758,76.5698928833008,35.4695434570313,188.991813659668" />
+    <Link Source="Poe" Target="Ralph" Bounds="132.663772583008,76.5698928833008,43.2969207763672,134.741477966309" />
+    <Link Source="Psychosis" Target=".verse" Bounds="211.688980102539,132.529998779297,65.2089080810547,77.7537384033203" Label="EntryPoint: Magnetic Pipeline;" LabelBounds="251.708985809686,141.728888078227,157.12,15.96" />
+    <Link Source="Psychosis" Target="Aithaluwa" Bounds="130.075698852539,116.549995422363,21.0000915527344,0" />
+    <Link Source="Psychosis" Target="Apus" Bounds="161.37907409668,132.529998779297,31.9007873535156,188.887603759766" />
+    <Link Source="Psychosis" Target="Arkantos" Bounds="140.78010559082,132.529998779297,14.8907775878906,23.2155914306641" />
+    <Link Source="Psychosis" Target="IPLANT" Bounds="163.793319702148,132.529998779297,27.7210388183594,79.5800476074219" Label="Thear: Vegetative Consequences;" LabelBounds="13.1436005481416,120.839107456686,173.343333333333,15.96" />
+    <Link Source="Psychosis" Target="Maia" Bounds="148.332641601563,132.529998779297,25.2561340332031,132.985748291016" />
+    <Link Source="Psychosis" Target="Opus" Bounds="203.402252197266,132.529998779297,50.8111724853516,133.039093017578" />
+    <Link Source="Psychosis" Target="Ralph" Bounds="142.185775756836,132.529998779297,26.9223022460938,80.7090759277344" />
+    <Link Source="Ralph" Target="IPLANT" Bounds="142.437783944113,231.470192790984,21.0001,0" Label="IPLANT: Neural Nodemap;" LabelBounds="83.5545006107796,211.510192790984,138.766666666667,15.96" />
+    <Link Source="Ralph" Target="Psychosis" Bounds="123.347068786621,140.464935302734,37.0338821411133,78.0252532958984" />
+    <Link Source="Robjam1990" Target=".ject" Bounds="298.53948622866,132.529932790984,2.73457265145521,21.0749199663092" Label="CLI: Developers Tools;" LabelBounds="303.906911936011,135.344745044235,114.47,15.96" />
+    <Link Source="Robjam1990" Target=".verse" Bounds="261.657623291016,132.529937744141,24.8889770507813,77.6750030517578" Label="EntryPoint: Magnetic Pipeline;" LabelBounds="266.916783403596,160.056639192831,157.12,15.96" />
+    <Link Source="Robjam1990" Target="IPLANT" Bounds="223.713180541992,132.529937744141,68.5486297607422,80.0655670166016" />
+    <Link Source="Robjam1990" Target="Log(99)" Bounds="354.639327584868,118.988717983587,21.0009217837716,0.300593781530026" Label="Produce: Layer of Generation;" LabelBounds="287.056164686076,99.1790148533702,156.11,15.96" />
+    <Link Source="Robjam1990" Target="Psychosis" Bounds="230.152384915181,119.730977406373,21.00027600302,0.0863051152765451" />
+    <Link Source="Robjam1990" Target="Quantum" Category="Contains" />
+    <Link Source="ThirdParty:ExteriorDatabase;" Target="Botlibre" Bounds="215.77653503418,20.6097927093506,17.4008636474609,133.21865272522" />
+    <Link Source="ThirdParty:ExteriorDatabase;" Target="Poe" Bounds="202.39235454838,20.6097927909836,3.42949385829715,21.1164964242001" />
+    <Link Source="Users" Target="Botlibre" Bounds="221.750183105469,77.5298309326172,47.4683837890625,77.1536407470703" Label="Botlibre: User Log-in;" LabelBounds="245.185349917955,117.14950386998,111.096666666667,15.9600000000001" />
+    <Link Source="Users" Target="Log(99)" Bounds="303.841624302813,74.4718994349774,72.9618588607693,28.9572970434489" Label="Produce: Layer of Generation;" LabelBounds="335.63868849562,68.9798448234749,156.11,15.96" />
+    <Link Source="Users" Target="Poe" Bounds="232.840876455388,63.9978590073426,21.0007478474251,0.251992908617083" Label="Poe: User Log-in;" LabelBounds="198.623920303248,68.123855472015,89.3866666666667,15.96" />
+    <Link Source="Users" Target="Psychosis" Bounds="215.738526233468,77.5298327909836,41.2194725053344,24.4488168358692" Label="Psychosis: User Log-in;" LabelBounds="94.83822775255,84.2984778302474,119.88,15.96" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Category 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="Category2" Label="Category 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Category4" Label="Category 4" Background="#FF1BA1E2" IsTag="True" />
+    <Category Id="Category5" Label="Category 5" Background="#FF9B4F96" IsTag="True" />
+    <Category Id="Category6" Label="Category 6" Background="#FFA1260D" IsTag="True" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 4" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category4')" />
+      <Setter Property="Background" Value="#FF1BA1E2" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 2" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 6" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
