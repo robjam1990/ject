@@ -4,6 +4,8 @@ Ject is a collection of UML-like diagrams that describe the behavior of a system
 
 ## Diagrams
 
+An Ejection can be identified by initiate=`;`.
+
 ```E.ject
 [Eject(Node="target")]
     target --> [Eject] --> Void
@@ -12,6 +14,8 @@ Ject is a collection of UML-like diagrams that describe the behavior of a system
    Previous node         Next node
    (Input to "target")    (Connected after "target")
 ```
+
+An Adjection can be identified by start=`'`, and optional end=`'`.
 
 ```Ad.ject
               +---------+
@@ -24,6 +28,8 @@ Ject is a collection of UML-like diagrams that describe the behavior of a system
     |  node    |       |           |
     +----------+       +-----------+
 ```
+
+An Objection can be identified by start=`"`, and end=`"`.
 
 ```Ob.ject
 Object: CustomObject
@@ -44,6 +50,8 @@ Object: CustomObject
         ...
 }
 ```
+
+A Subjection can be identified by start=`[`, and end=`]`.
 
 ```Sub.ject
 Subject: CustomSubject
@@ -68,11 +76,15 @@ Subject: CustomSubject
 }
 ```
 
+A Rejection can be identified by start=`(`, and optional end=`)`.
+
 ```Re.ject
 [Reject(Criteria: ConditionType)]
 
 Input --> [Reject] --> Output
 ```
+
+An Injection can be identified by start=`:`, and optional end=`;`.
 
 ```In.ject
 [Inject(Data: AnyType)]
@@ -80,11 +92,15 @@ Input --> [Reject] --> Output
 Input --> [Inject] --> Output
 ```
 
+A Conjection can be identified by start=```, and end=```.
+
 ```Con.ject
 [Conject(Assumptions: AssumptionType, Confidence: Double)]
 
 Input --> [Conject] --> Output
 ```
+
+An Interjection can be identified by start=`<` or start=`>`, and optional end=`>`.
 
 ```Inter.ject
 [Interject(Data: AnyType, Operation: OperationType)]
@@ -92,11 +108,15 @@ Input --> [Conject] --> Output
 Input --> [Interject] --> Output
 ```
 
+A Projection can be identified by start=`{`, and end=`}`.
+
 ```Pro.ject
 [Project(Data: AnyType, Dimensions: Integer, CoordinateSystem: SystemType)]
 
 Input --> [Project] --> Output
 ```
+
+A Trajection can be identified by start=`~`.
 
 ```Tra.ject
 [Traject(Data: AnyType, TimeSteps: Integer, TrajectoryType: Type)]
