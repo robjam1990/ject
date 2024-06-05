@@ -1,0 +1,88 @@
+/*Justify-Every-Circuit-Transfer---.ject*/
+{
+    .ject(
+        Ob(Entity) : -Ob = node,
+                     while : (Ob == node){
+             -In = node - [1],
+            Put = Branch[01],
+             -Out = node[0],
+            Put = Branch : Ad
+        } $P = _ %NP + 0 - 1);
+};
+{
+    .ject(
+        Ad(Branch) : -Ad = branch,
+                     while : (Ad == branch){
+                                 -Ob = node0,
+                                 -Ad = branch[01],
+                                 -Pro = node[1]
+                             } $P = _ %NP);
+};
+{
+    .ject(
+        Sub(Node) : -Ob = node0,
+                    while : (Ob == node0){
+                                 -Sub = node[1...N]
+                            } $P = _ %NP... N);
+};
+{
+    .ject(
+        Tra(Map) : -Ob = node[0],
+                     -Tra = node[1],
+                   while : (Tra == null){
+                                 -Ad = node[1],
+                                 -Tra = node[2]
+                           } $P = _ %NP0->NP1 : -NP2);
+};
+{
+    .ject(
+        Pro(Function) : -Ob = node[0],
+                         -Pro = node[1],
+                        while : (Input == Ob){
+                                     -Output = Pro
+                                } $P = _ %NP0 : -NP1);
+};
+{
+    .ject(
+        Con(Node Branch Node) : -Ob = node[0],
+                                     -Ad = branch[01],
+                                     -Sub = node[1],
+                                  while : (Ad == branch[01]){
+                                              -Con = branch[10]
+                                          } $P = _ %NPC);
+};
+{
+    .ject(
+        Ter(In Branch Node) : -In = node[0],
+                                 -Ad = branch[01],
+                                 -Ob = node[1],
+                                while : (In == node[0]){
+                                            -Ter = node[0.0]
+                                        } $P = _% !NP);
+};
+{
+    .ject(
+        In(Node) : -Ob = node[0],
+                   while : (Ob == node[0]){
+                                 -In = node[0],
+                                 -Ob = node[1]
+                           } $P = _% .NP);
+};
+{
+    .ject(
+        De(Node Branch Node) : -Ob = node[0],
+                                 -Ad = branch[01],
+                                 -Sub = node[1],
+                                 while : (Sub == node[1]){
+                                             -Ad = null
+                                         } $P = _% -NP);
+};
+{.ject(
+Re(Node Branch) : -Ob=node[0],
+                 -Ad=branch[0],
+                while:(Ad==branch[0]){
+                             -Ad=branch[01],
+                             -Re=node[1]
+                        }$P = _% NP?);
+};
+/*Justify-Every-Circuit-Transfer---.ject*/
