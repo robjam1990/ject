@@ -1,10 +1,33 @@
-# Ject
+# Ject: A Simple and Effective Way to Describe System Behavior
 
-Ject is a collection of UML-like diagrams that describe the behavior of a system. Each diagram is a single word followed by a colon and a description of the diagram. The diagrams are designed to be simple and easy to understand. They can be used to describe the behavior of a system in a concise and clear way.
+- **Version**:[[1.2.3]](.ject)
 
-## Diagrams
+Ject is a collection of UML-like diagrams that provide a simple and effective way to describe the behavior of a system. These diagrams are designed to be easy to understand and can be used to document the behavior of a system in a concise and clear way.
 
-An Ejection can be identified by initiate=`;`.
+## Ject Diagrams
+
+There are several different types of Ject diagrams, each with its own specific purpose. These diagrams can be identified by their starting and ending characters, as shown in the table below:
+
+---
+| Diagram | Start | End | Description |
+|:--|:-:|:-:|:--|
+| Ejection | `[Eject(Node="target")]` | `Void` | Represents the removal of a node from the system. |
+| Adjection | `'start'` | `'end'` | Represents the addition of a new node to the system. |
+| Objection | `"start"` | `"end"` | Represents the creation of a new object in the system. |
+| Subjection | `[start]` | `[end]` | Represents the creation of a new subject in the system. |
+| Rejection | `(start)` | `(end)` | Represents the rejection of input based on a specific condition. |
+| Injection | `:start` | `;end` | Represents the injection of data into the system. |
+| Conjection | `'start` | `end'` | Represents the making of a conjecture based on assumptions and confidence. |
+| Interjection | `<start` | `>end` | Represents the interjection of data into the system with a specific operation. |
+| Projection | `{start}` | `}end` | Represents the projection of data into a specific dimension and coordinate system. |
+| Trajection | `~start` | `end` | Represents the trajectory of data over a specific time period and trajectory type. |
+---
+
+### Ject in Action
+
+Here is an example of how Ject diagrams can be used to describe the behavior of a simple system:
+
+This diagram shows the ejection of a node named "target" from the system. The input to the "target" node is shown on the left, and the next node that will be connected after the ejection is shown on the right.
 
 ```E.ject
 [Eject(Node="target")]
@@ -175,6 +198,38 @@ Let me provide you with a more detailed explanation of the functionalities of th
    - The Configure() method updates the Settings property.
    - The HandleErrors() method processes the test case using the configured system components, checks for errors in the processed code, and returns a list of errors.
 
+I have found the following issues:
+
+1. The .jectCalibrator class should implement the IDisposable interface to properly dispose of any unmanaged resources it uses.
+
+2. The .jectParser class constructor should accept the .jectSettings instance as a parameter and use it to configure the parser.
+
+3. The .jectCompiler class constructor should accept the .jectSettings instance as a parameter and use it to configure the compiler.
+
+4. The .jectFormatter class constructor should accept the .jectSettings instance as a parameter and use it to configure the formatter.
+
+5. The .jectTester class constructor should accept the .jectSettings instance as a parameter and use it to configure the tester.
+
+6. The .jectPerformanceAnalyzer class constructor should accept the .jectSettings instance as a parameter and use it to configure the performance analyzer.
+
+7. The .jectDebugger class constructor should accept the .jectSettings instance as a parameter and use it to configure the debugger.
+
+8. The .jectErrorHandler class constructor should accept the .jectSettings instance as a parameter and use it to configure the error handler.
+
+9. The .jectParser class should implement the IParser interface and expose a method to parse a string.
+
+10. The .jectCompiler class should implement the ICompiler interface and expose a method to compile an AST.
+
+11. The .jectFormatter class should implement the IFormatter interface and expose a method to format compiled code.
+
+12. The .jectTester class should implement the ITester interface and expose methods to run tests and compare output.
+
+13. The .jectPerformanceAnalyzer class should implement the IPerformanceAnalyzer interface and expose methods to analyze performance.
+
+14. The .jectDebugger class should implement the IDebugger interface and expose methods to debug test cases.
+
+15. The .jectErrorHandler class should implement the IErrorHandler interface and expose methods to handle errors.
+
 These classes work together to provide functionalities such as calibration, parsing, compiling, formatting, testing, performance analysis, debugging, and error handling in the .jectCalibrator program.
 
 ## Usage
@@ -184,3 +239,15 @@ To use Ject diagrams in your documentation, simply copy and paste the diagram in
 ## Caution
 
 Ject diagrams are designed to be simple and easy to understand. They are not meant to replace traditional UML diagrams, but rather to complement them. Ject diagrams are best used to describe the behavior of a system in a concise and clear way.
+
+### Benefits of Using Ject
+
+There are several benefits to using Ject diagrams to describe system behavior:
+
+-**Simple and easy to understand:** Ject diagrams are designed to be simple and easy to understand, even for people who are not familiar with UML diagrams.
+-**Concise and clear:** Ject diagrams can be used to describe the behavior of a system in a concise and clear way.
+-**Versatile:** Ject diagrams can be used to describe a wide variety of system behaviors.
+
+### Conclusion
+
+Ject is a simple and effective way to describe system behavior. Ject diagrams are easy to understand and can be used to document the behavior of a system in a concise and clear way. If you are looking for a way to improve the documentation of your system, Ject is a great option to consider.
